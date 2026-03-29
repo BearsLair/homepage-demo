@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100%;
+  max-width: 800px;
+}
+
+header {
+  object-fit: contain;
+  width: 100%;
+  height: fit-content;
+}
+
+.heading-pic {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+.heading-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.heading-desc {
+  margin-bottom: 1rem;
+}
+
+profile .profile-img {
+  position: absolute;
+  z-index: 1;
+}
+
+.name {
+  color: antiquewhite;
+  position: absolute;
+  z-index: 2;
+  font-size: 3rem;
+  top: 10px;
+  left: 50%;
+}

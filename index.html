@@ -8,16 +8,28 @@
   </head>
   <body>
     <header>
-      <img
-        class="profile-img"
-        src="./images/bear-1080p.jpg"
-        srcset="
-          .images/bear-1080p.jpg   480w,
-          ./images/bear-1080p.jpg  720w,
-          ./images/bear-1080p.jpg 1080w
-        "
-        alt="Patrick Gross"
-      />
+      <div class="heading-pic">
+        <img
+          class="profile-img"
+          srcset="
+            ./images/bear-720p.jpg   720w,
+            ./images/bear-1440p.jpg 1440w,
+            ./images/bear-2160p.jpg 2160w
+          "
+          sizes="(max-width: 480px) 300w, 800w"
+          alt="Patrick Gross"
+        />
+        <span class="name">Patrick Gross</span>
+      </div>
+      <div class="about-me">
+        <h1 class="heading-title">About Me</h1>
+        <p class="heading-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
     </header>
     <main></main>
     <footer></footer>
