@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   max-width: 800px;
 }
 
@@ -42,4 +42,15 @@ profile .profile-img {
   font-size: 3rem;
   top: 10px;
   left: 50%;
+}
+
+svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.socialmedia-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
