@@ -114,7 +114,39 @@ main {
 
 .img-container {
   position: relative;
-  background-color: aquamarine;
   width: 100%;
   height: 200px;
+}
+
+.project-screenshot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 1.5rem;
+  color: antiquewhite;
+}
+
+#img-1 {
+  background-color: rgb(10, 161, 111);
+}
+
+#img-2 {
+  background-color: darkorange;
+}
+
+#img-3 {
+  background-color: blueviolet;
+}
+
+#img-4 {
+  background-color: darkgreen;
+}
+
+#img-5 {
+  background-color: fuchsia;
+}
+
+#img-6 {
+  background-color: lightslategray;
 }
