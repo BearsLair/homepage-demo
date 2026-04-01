@@ -315,7 +315,18 @@
         (123) 456-7890 <br />
         email@example.com
       </p>
-      <img class="footer-pic" src="path/to/footer-image.jpg" alt="" />
+
+      <div class="footer-img-container">
+        <img
+          srcset="
+            ./images/footer-bear-720p.jpg   720w,
+            ./images/footer-bear-1440p.jpg 1440w,
+            ./images/footer-bear-2160p.jpg 2160w
+          "
+          sizes="(max-width: 480px) 300w, 800w"
+          alt=""
+        />
+      </div>
     </footer>
   </body>
 </html>

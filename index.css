@@ -165,8 +165,15 @@ p {
   font-size: 1.5rem;
 }
 
-.footer-pic {
-  width: 100%;
-  height: fit-content;
+.footer-img-container {
   margin-top: 1rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+.footer-img-container img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
