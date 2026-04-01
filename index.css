@@ -5,7 +5,9 @@
 }
 
 body {
-  width: 100vw;
+  width: 100%;
+  max-width: 400px;
+  overflow-x: hidden;
 }
 
 header {
@@ -16,7 +18,10 @@ header {
 .heading-pic-container {
   height: auto;
   width: 100%;
+  max-width: 100%;
   padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
 }
 
 .profile-img {
