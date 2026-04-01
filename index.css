@@ -6,25 +6,42 @@
 
 body {
   width: 100vw;
-  max-width: 800px;
 }
 
 header {
-  object-fit: contain;
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
 
-.heading-pic {
-  position: relative;
+.heading-pic-container {
+  height: auto;
   width: 100%;
-  height: fit-content;
+  padding: 1.5rem;
+}
+
+.profile-img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.diagonal-square-background {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(16, 91, 221);
+  transform: rotate(-5deg) translateY(-30%) scale(3);
+  z-index: 2;
 }
 
 .heading-title {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .heading-desc {
@@ -34,10 +51,10 @@ header {
 .name {
   color: antiquewhite;
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   font-size: 3rem;
-  top: 10px;
-  left: 50%;
+  top: 5%;
+  left: 45%;
 }
 
 svg {
@@ -168,11 +185,12 @@ p {
 .footer-img-container {
   margin-top: 1rem;
   width: 100%;
-  max-width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-img-container img {
-  width: 100%;
   max-width: 100%;
   height: auto;
   display: block;
