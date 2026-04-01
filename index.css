@@ -31,11 +31,6 @@ header {
   margin-bottom: 1rem;
 }
 
-profile .profile-img {
-  position: absolute;
-  z-index: 1;
-}
-
 .name {
   color: antiquewhite;
   position: absolute;
@@ -114,8 +109,8 @@ main {
 
 .img-container {
   position: relative;
-  width: 100%;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .project-screenshot {
@@ -149,4 +144,29 @@ main {
 
 #img-6 {
   background-color: lightslategray;
+}
+
+footer {
+  margin-top: 5rem;
+  background-color: rgb(10, 161, 111);
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.footer-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.footer-pic {
+  width: 100%;
+  height: fit-content;
+  margin-top: 1rem;
 }
