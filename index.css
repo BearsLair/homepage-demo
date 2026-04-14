@@ -241,6 +241,11 @@ footer svg {
     top: 10%;
   }
 
+  header > svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
   .about-me {
     border: 1px solid black;
     background-color: aliceblue;
@@ -255,7 +260,7 @@ footer svg {
   }
 
   .heading-title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .heading-desc {
