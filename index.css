@@ -204,3 +204,44 @@ p {
   height: auto;
   display: block;
 }
+
+@media (min-width: 720px) and (max-width: 1079px) {
+  .heading-pic-container {
+    border: 2px solid red;
+    height: 70vw;
+  }
+
+  .profile-img {
+    position: absolute;
+    max-width: 40%;
+  }
+
+  .diagonal-square-background {
+    transform: rotate(-25deg) translateY(-55%) scale(4);
+  }
+
+  .name {
+    position: absolute;
+    max-width: 50%;
+    font-size: 4rem;
+    right: 20%;
+    top: 10%;
+  }
+
+  .about-me {
+    max-width: 40%;
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    z-index: 2;
+    transform: translateY(-50%);
+  }
+
+  .heading-title {
+    font-size: 3rem;
+  }
+
+  .heading-desc {
+    font-size: 1rem;
+  }
+}
